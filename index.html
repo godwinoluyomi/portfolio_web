@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="description" content="GoMyCode Portfolio Website">
+        <meta name="author" content="OLUYOMI GODWIN">
+        <title> Portfolio </title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <!-- Navigation -->
+        <nav id="home">
+            <span> OLUYOMI GODWIN </span>
+            <br>
+            <ul style="display: inline-flex;">
+                <li><a href="#home"> HOME </a></li>
+                <li><a href="#about"> ABOUT </a></li>
+                <li><a href="#work"> WORK </a></li>
+                <li><a href="#resume"> RESUME </a></li>
+                <li><a href="#contact"> CONTACT </a></li>
+            </ul>
+        </nav>
+        <!-- About -->
+        <section id="about" style="display: flex;">
+            <div class="halfdiv">
+                <h1> I am a <br> <b> full stack </b><br> developer</h1>
+                <div style="display: flex; margin-top: -70px;">
+                    <a href="https://github.com/"> <img src="res/GitHub.png" class="icon-social"> </a>
+                    <a href="https://linkedin.com/"> <img src="res/LinkedIn.png" class="icon-social"> </a>
+                    <a href="https://facebook.com/"> <img src="res/Facebook.png" class="icon-social"> </a>
+                    <a href="https://twitter.com/"> <img src="res/Twitter.png" class="icon-social"> </a>
+                </div>
+            </div>
+            <div class="halfdiv">
+                <img src="res/pic2.png" class="aboutimage">
+            </div>
+        </section>
+        <!-- Work -->
+        <section id="work">
+            <h1 style="text-align: center;"> MY WORK PROCESS </h1>
+            <br>
+            <div style="display: flex;">
+                <div style="width: 25%;"></div>
+                <video width="50%" height="auto" autoplay controls>
+                    <source src="res/video1.mp4" type="video/mp4">
+                    Browser cannot play video
+                </video>
+            </div>
+            <br>
+        </section>
+        <!-- Resume -->
+        <section id="resume">
+            <h1 style="text-align: center;"> PREVIOUS PROJECTS </h1>
+            <br>
+            <div class="workcard">
+                <ul>
+                    <li> 
+                        <a href="https://github.com/godwinoluyomi/GoMyCode1"> First Project </a> <br> 
+                        <span> This is the first checkpoint project for gomycode. </span> 
+                    </li>
+                    <li> 
+                        <a href="https://github.com/godwinoluyomi/learn_git"> Learn Git </a>  <br> 
+                        <span> Project to test understanding of Git and GitHub and it is the second checkpoint project for gomycode. </span> 
+                    </li>
+                    <li> 
+                        <a href="https://github.com/godwinoluyomi/portfolio_web"> Portfolio Website </a>  <br> 
+                        <span> A one page portfolio website to test understanding of HTML and CSS. HTML without CSS does not look nice at all. </span> 
+                    </li>
+                </ul>
+            </div>
+            
+        </section>
+        <!-- Contact -->
+        <section id="contact">
+            <h1 style="text-align: center;"> REACH OUT TO ME </h1>
+            <br>
+            <div class="contactcard">
+                <formn action="index.html" method="POST">
+                    <div class="inputgroup">
+                        <!-- <label> Name </label> -->
+                        <input type="text" class="inputbox" name="fullname" placeholder="Full Name">
+                    </div>
+                    <div class="inputgroup">
+                        <!-- <label> Phone Number </label> -->
+                        <input type="text" class="inputbox" name="phone_number" placeholder="Phone Number">
+                    </div>
+                    <div class="inputgroup">
+                        <!-- <label> Email Address </label> -->
+                        <input type="email" class="inputbox" name="email_address" placeholder="Email Address">
+                    </div>
+                    <div class="inputgroup">
+                        <!-- <label> Email Address </label> -->
+                        <button type="submit" name="submitform"> Send Message </button>
+                    </div>
+                </formn>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer>
+            <small> Copyright © 2023 Oluyomi Godwin </small>
+        </footer>
+    </body>
+</html>
